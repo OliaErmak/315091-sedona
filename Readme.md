@@ -1,7 +1,6 @@
 # Личный проект «Седона»
 
 * Студент: [Olia Ermak](https://up.htmlacademy.ru/htmlcss/17/user/315091).
-* Наставник: `Неизвестно`.
 
 ---
 
