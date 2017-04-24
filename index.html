@@ -100,27 +100,59 @@
           </div>
 
           <section class="map">
-            /*спрст:как вставить карту*/
+           <img src="map" alt="Place where hostel located">
           </section>
 
           <div class="search-hotel">
             <p class="search-hotel-title">Поиск гостинницы в седоне</p>
-            <p>Дата заезда:</p>
-            <p>Дата выезда:</p>
-            <p>Взрослые:</p>
-            <p>Дети:</p>
+            <form action="#" method="post">
+              <div class="choose-data">
+                <label>
+                  Дата заезда: <input type="text" name="data-zaezda">
+                <label>
+                <a href="#" class="choose-calendar"></a>
+              </div>
+              <div class="choose-data">
+                <label>
+                  Дата выезда: <input type="text" name="data-viezda">
+                </label>
+                <a href="#" class="choose-calendar">
+              </div>
+
+              <section class="number-of-peple">
+                <div class="btn-adult">
+                <button class="btn-adult" type="button">-</button>
+                  <label>
+                  Взрослые:<input type="text" name="adults">
+                  </label>
+                  <button class="btn-adult" type="button">+</button>
+                </div>
+
+                <div class="btn-child">
+                  <button class="btn-child" type="button">-</button>
+                    <label>
+                      Дети:<input type="text" name="child">
+                    </label>
+                  <button class="btn-child" type="button">+</button>
+                </div>
+              </section>
+            </form>
           </div>
         </main>
 
             <footer>
               <p>#VISITSEDONA</p>
-              <a href="sedonavklink"></a>
-              <a href="sedonafacebooklink"></a>
-              <a href="sedonayoutubelink"></a>
+
+              <section class="sns">
+                <a class="btn-vk" href="#">Vk</a>
+                <a class="btn-twitter" href="#">Twitter</a>
+                <a class="btn-youtube" href="#">YouTube</a>
+              </section>
+
+              <section class="btn-htmlacademy">
               <p>WEBSITE BY</p>
-              <a href="htmlacademylink">
-                <img src="logo-html-academy" alt="Link to the html academy's site">
-              </a>
+              <a href="https://htmlacademy.ru/">HTML Academy</a>
             </footer>
+
         </body>
       </html>
